@@ -1,0 +1,1 @@
+http://www.mikemitterer.at/infopoint/programmierung/maven-repository-github.html
