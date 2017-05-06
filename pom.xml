@@ -5,11 +5,28 @@
 	<artifactId>trump</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+    </properties>
+
+
 	<repositories>
 		<repository>
 			<id>imagingbook-maven-repository</id>
 			<name>imagingbook-maven-repository on GitHub</name>
-			<url>https://raw.github.com/imagingbook/imagingbook-maven-repository/master</url>
+            <!--<releases>
+                <enabled>true</enabled>
+                <updatePolicy>always</updatePolicy>
+                <checksumPolicy>warn</checksumPolicy>
+            </releases>
+            <snapshots>
+                <enabled>true</enabled>
+                <updatePolicy>always</updatePolicy>
+                <checksumPolicy>warn</checksumPolicy>
+            </snapshots>-->
+            <!--<url>https://raw.github.com/imagingbook/imagingbook-maven-repository/master</url>-->
+            <url>https://raw.githubusercontent.com/imagingbook/imagingbook-maven-repository/master</url>
 			<layout>default</layout>
 		</repository>
 	</repositories>
