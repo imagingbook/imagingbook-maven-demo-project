@@ -15,16 +15,6 @@
 		<repository>
 			<id>imagingbook-maven-repository</id>
 			<name>imagingbook-maven-repository on GitHub</name>
-            <!--<releases>
-                <enabled>true</enabled>
-                <updatePolicy>always</updatePolicy>
-                <checksumPolicy>warn</checksumPolicy>
-            </releases>
-            <snapshots>
-                <enabled>true</enabled>
-                <updatePolicy>always</updatePolicy>
-                <checksumPolicy>warn</checksumPolicy>
-            </snapshots>-->
             <!--<url>https://raw.github.com/imagingbook/imagingbook-maven-repository/master</url> -->
             <url>https://raw.githubusercontent.com/imagingbook/imagingbook-maven-repository/master</url>
 			<layout>default</layout>
