@@ -1,8 +1,8 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
-	<groupId>donald</groupId>
-	<artifactId>trump</artifactId>
+	<groupId>myorg.net</groupId>
+	<artifactId>imagingbook-maven-demo-project</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 
     <properties>
@@ -15,8 +15,7 @@
 		<repository>
 			<id>imagingbook-maven-repository</id>
 			<name>imagingbook-maven-repository on GitHub</name>
-            <!--<url>https://raw.github.com/imagingbook/imagingbook-maven-repository/master</url> -->
-            <url>https://raw.githubusercontent.com/imagingbook/imagingbook-maven-repository/master</url>
+            <url>https://raw.github.com/imagingbook/imagingbook-maven-repository/master</url>
 			<layout>default</layout>
 		</repository>
 	</repositories>
@@ -25,8 +24,7 @@
 		<dependency>
 			<groupId>net.imagej</groupId>
 			<artifactId>ij</artifactId>
-			<version>1.51h</version>
-			<!-- search http://maven.imagej.net/#nexus-search;gav~net.imagej~ij~~~~kw,versionexpand -->
+			<version>1.51n</version>
 		</dependency>
 
 		<dependency>
@@ -38,9 +36,8 @@
 		<dependency>
 			<groupId>com.imagingbook</groupId>
 			<artifactId>imagingbook-common</artifactId>
-			<version>1.5-SNAPSHOT</version>
+			<version>1.5</version>
 		</dependency>
-
 
 	</dependencies>
 
