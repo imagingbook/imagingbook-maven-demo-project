@@ -5,11 +5,10 @@
 	<artifactId>imagingbook-maven-demo-project</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 
-<!--     <properties>
+    <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-    </properties> -->
-
+    </properties>
 
 	<repositories>
 		<repository>
@@ -21,24 +20,11 @@
 	</repositories>
 
 	<dependencies>
-		<!-- <dependency>
-			<groupId>net.imagej</groupId>
-			<artifactId>ij</artifactId>
-			<version>1.51n</version>
-		</dependency> -->
-
-		<!-- <dependency>
-			<groupId>org.apache.commons</groupId>
-			<artifactId>commons-math3</artifactId>
-			<version>3.6.1</version>
-		</dependency> -->
-
 		<dependency>
 			<groupId>com.imagingbook</groupId>
 			<artifactId>imagingbook-common</artifactId>
 			<version>1.5</version>
 		</dependency>
-
 	</dependencies>
 
 </project>
