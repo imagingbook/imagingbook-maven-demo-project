@@ -4,7 +4,7 @@ This is a minimal ImageJ project using the [imagingbook-common](https://github.c
 It contains a single ImageJ plugin that implements the Canny edge detector. The project uses MAVEN for dependency management
 and is preconfigured for Eclipse.
 
-To use:
+**To use:**
 * Start ImageJ.
 * Open a grayscale or color image.
 * Run `Plugins` -> `imagingbook_test` -> `Color_Edges_Canny`.
