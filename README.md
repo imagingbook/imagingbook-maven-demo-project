@@ -1,6 +1,6 @@
 # imagingbook-maven-demo-project
 
-This is a minimal **[ImageJ](https://imagej.net/ImageJ1)** project using the **[imagingbook-common](https://github.com/imagingbook/imagingbook-common)** library.
+This is a minimal **[ImageJ](https://imagej.net/ImageJ1)** project that demonstrates how to use the **[imagingbook-common](https://github.com/imagingbook/imagingbook-common)** library.
 It contains a single ImageJ plugin that implements the Canny edge detector. The project uses MAVEN for dependency management
 and is preconfigured for Eclipse.
 
