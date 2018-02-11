@@ -11,8 +11,8 @@ To use:
 
 This repository provides Java source code supplementing the **Digital Image Processing books by W. Burger & M. J. Burge** (see [imagingbook.com](https://imagingbook.com) for details).
 
-Main repository: [imagingbook-public](https://github.com/imagingbook/imagingbook-public)
+**Additional examples:** https://github.com/imagingbook/imagingbook-plugins-all
 
-Javadoc: https://imagingbook.github.io/imagingbook-plugins-all/javadoc/
+**Javadoc:** https://imagingbook.github.io/imagingbook-plugins-all/javadoc/
 
 
