@@ -6,11 +6,10 @@
 	<version>0.0.1-SNAPSHOT</version>
 
     <properties>
-    	<imagingbook.version>1.5</imagingbook.version>
-    	<java.version>1.8</java.version>
-		<imagej.version>1.51w</imagej.version>
+		<java.version>1.8</java.version>
+		<imagej.version>1.52i</imagej.version>
+		<imagingbook.version>1.6-SNAPSHOT</imagingbook.version>
 		<commons-math3.version>3.6.1</commons-math3.version>
-		
 		
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
@@ -31,15 +30,15 @@
 			<artifactId>ij</artifactId>
 			<version>${imagej.version}</version> <!-- see https://mvnrepository.com/artifact/net.imagej/ij -->
 		</dependency>
+				<dependency>
+			<groupId>com.imagingbook</groupId>
+			<artifactId>imagingbook-common</artifactId>
+			<version>${imagingbook.version}</version>
+		</dependency>
 		<dependency>
 			<groupId>org.apache.commons</groupId>
 			<artifactId>commons-math3</artifactId>
 			<version>${commons-math3.version}</version>
-		</dependency>
-		<dependency>
-			<groupId>com.imagingbook</groupId>
-			<artifactId>imagingbook-common</artifactId>
-			<version>${imagingbook.version}</version>
 		</dependency>
 	</dependencies>
 	
