@@ -7,7 +7,7 @@
 
     <properties>
 		<java.version>1.8</java.version>
-		<imagej.version>1.52j</imagej.version>
+		<imagej.version>1.52s</imagej.version>
 		<imagingbook.version>1.6-SNAPSHOT</imagingbook.version>
 		<commons-math3.version>3.6.1</commons-math3.version>
 		
@@ -30,7 +30,7 @@
 			<artifactId>ij</artifactId>
 			<version>${imagej.version}</version> <!-- see https://mvnrepository.com/artifact/net.imagej/ij -->
 		</dependency>
-				<dependency>
+		<dependency>
 			<groupId>com.imagingbook</groupId>
 			<artifactId>imagingbook-common</artifactId>
 			<version>${imagingbook.version}</version>
@@ -48,7 +48,7 @@
 				<plugin>
 					<groupId>org.apache.maven.plugins</groupId>
 					<artifactId>maven-compiler-plugin</artifactId>
-					<version>3.3</version>
+					<version>3.8.1</version>
 					<configuration>
 						<source>${java.version}</source>
 						<target>${java.version}</target>
@@ -65,7 +65,7 @@
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-jar-plugin</artifactId>
-				<version>2.3.1</version>
+				<version>3.2.0</version>
 				<configuration>
 					<!-- <outputDirectory>${project.build.directory}/ImageJ/jars</outputDirectory> -->
 					<!-- <finalName>${project.name}_XXX_${project.version}</finalName> -->
@@ -76,7 +76,7 @@
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-dependency-plugin</artifactId>
-				<version>2.10</version>
+				<version>3.1.1</version>
 				<executions>
 					<execution>
 						<id>copy</id>
