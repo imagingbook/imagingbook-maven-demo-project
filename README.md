@@ -13,6 +13,5 @@ This repository provides Java source code supplementing the **[Digital Image Pro
 
 **Additional examples:** https://github.com/imagingbook/imagingbook-plugins-all
 
-**Javadoc:** https://imagingbook.github.io/imagingbook-plugins-all/javadoc/
 
 
