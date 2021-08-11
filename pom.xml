@@ -16,9 +16,10 @@
 		<relativePath />
 	</parent>
 	
-	<!-- 
-	Consider wnot using a parent, but importing the parent POM (i.e., using a BOM)!
-	-->
+	<properties>
+		<!-- do not generate JavaDoc for this project -->
+    	<maven.javadoc.skip>true</maven.javadoc.skip>
+	</properties>
 
 	<repositories>
 		<repository>
