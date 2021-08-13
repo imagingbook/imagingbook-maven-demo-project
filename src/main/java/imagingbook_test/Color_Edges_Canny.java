@@ -9,6 +9,9 @@
 package imagingbook_test;
 
 
+import java.awt.Point;
+import java.util.List;
+
 import ij.IJ;
 import ij.ImagePlus;
 import ij.gui.GenericDialog;
@@ -16,9 +19,6 @@ import ij.plugin.filter.PlugInFilter;
 import ij.process.ImageProcessor;
 import imagingbook.pub.color.edge.CannyEdgeDetector;
 import imagingbook.pub.color.edge.CannyEdgeDetector.Parameters;
-
-import java.awt.Point;
-import java.util.List;
 
 /**
  * This plugin implements the Canny edge detector for all types of images.

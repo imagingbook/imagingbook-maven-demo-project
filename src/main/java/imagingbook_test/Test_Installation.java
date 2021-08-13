@@ -13,6 +13,7 @@ import ij.plugin.PlugIn;
 import imagingbook.Info;
 import imagingbook.lib.util.FileUtils;
 
+
 /**
  * A simple ImageJ plugin for testing the 'imagingbook' installation.
  * @author W. Burger
