@@ -19,7 +19,7 @@ import imagingbook.lib.util.FileUtils;
  * @author W. Burger
  * @version 2016/03/23
  */
-public class Test_Installation implements PlugIn {
+public class Check_Installation implements PlugIn {
 
 	public void run(String arg0) {
 		IJ.log("Executing plugin ...... " + this.getClass().getName());

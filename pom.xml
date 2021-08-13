@@ -12,11 +12,13 @@
 	<parent>
 		<groupId>com.imagingbook</groupId>
 		<artifactId>imagingbook-parent-pom</artifactId>
-		<version>3.1-SNAPSHOT</version>
+		<version>3.0</version>
 		<relativePath />
 	</parent>
 	
 	<properties>
+		<!-- do not deploy this project -->
+		<imagingbook.skipdeploy>true</imagingbook.skipdeploy>
 		<!-- do not generate JavaDoc for this project -->
     	<maven.javadoc.skip>true</maven.javadoc.skip>
 	</properties>
