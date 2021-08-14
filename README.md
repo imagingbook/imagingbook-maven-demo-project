@@ -6,9 +6,10 @@ the installation.
 The project uses MAVEN for dependency management and is preconfigured for Eclipse.
 This repository provides Java source code supplementing the **[Digital Image Processing](https://imagingbook.com)** books by **W. Burger & M. J. Burge**.
 
-**To use:**
+**How to use:**
 * Clone this repository. The resulting project should be complete and runnable as-is:
-  * Start ImageJ.
+  * Start **ImageJ** by double-clicking `ImageJ/ImageJ.exe` (Win) or launching `ij.jar` (Mac).
+  * Run `Plugins` &#10140; `imagingbook_test` &#10140; `Check_Installation`.
   * Open a grayscale or color image.
   * Run `Plugins` &#10140; `imagingbook_test` &#10140; `Color_Edges_Canny`. 
 * To change or add new functionality edit the Java files (ImageJ plugins) in `src/main/java`. Under Eclipse the associated `.class` files are automatically
@@ -17,7 +18,9 @@ This repository provides Java source code supplementing the **[Digital Image Pro
 
 
 
-**Additional examples:** https://github.com/imagingbook/imagingbook-plugins-all
+**Additional plugins:** https://github.com/imagingbook/imagingbook-plugins-all
+
+**Main repository:** https://github.com/imagingbook/imagingbook-public
 
 
 
