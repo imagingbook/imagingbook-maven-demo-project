@@ -7,7 +7,7 @@ The project uses MAVEN for dependency management and is preconfigured for Eclips
 This repository provides Java source code supplementing the **[Digital Image Processing](https://imagingbook.com)** books by **W. Burger & M. J. Burge**.
 
 **How to use:**
-* Clone this repository. The resulting project should be complete and runnable as-is:
+* Clone this repository. The resulting project should be complete and runnable as-is (no build necessary):
   * Start **ImageJ** by double-clicking `ImageJ/ImageJ.exe` (Win) or launching `ij.jar` (Mac).
   * Run `Plugins` &#10140; `imagingbook_test` &#10140; `Check_Installation`.
   * Open a grayscale or color image.
