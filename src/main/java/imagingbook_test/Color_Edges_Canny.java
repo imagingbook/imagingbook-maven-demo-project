@@ -9,7 +9,6 @@
 package imagingbook_test;
 
 
-import java.awt.Point;
 import java.util.List;
 
 import ij.IJ;
@@ -19,11 +18,12 @@ import ij.plugin.filter.PlugInFilter;
 import ij.process.ImageProcessor;
 import imagingbook.pub.color.edge.CannyEdgeDetector;
 import imagingbook.pub.color.edge.CannyEdgeDetector.Parameters;
+import imagingbook.pub.color.edge.EdgeTrace;
 
 /**
  * This plugin implements the Canny edge detector for all types of images.
  * @author W. Burger
- * @version 2014/12/03
+ * @version 2021/11/26
  */
 public class Color_Edges_Canny implements PlugInFilter {
 	
@@ -62,7 +62,7 @@ public class Color_Edges_Canny implements PlugInFilter {
 		}
 		
 		if(listEdgeTraces) {
-			List<List<Point>> edgeTraces = detector.getEdgeTraces();
+			List<EdgeTrace> edgeTraces = detector.getTraces();
 			IJ.log("number of edge traces: " + edgeTraces.size());
 		}
 	}
