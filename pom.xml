@@ -36,13 +36,6 @@
 			<groupId>com.imagingbook</groupId>
 			<artifactId>imagingbook-common</artifactId>   
 		</dependency>
-
-		<dependency>
-			<!-- see https://github.com/imagingbook/imagingbook-maven-repository/tree/master/com/imagingbook/imagingbook-common -->
-			<groupId>com.imagingbook</groupId>
-			<artifactId>imagingbook_plugins_all</artifactId>   
-			<version>3.1</version>
-		</dependency>
 	</dependencies>
 	
 	<build>
