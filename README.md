@@ -4,9 +4,9 @@ This is a minimal **[ImageJ](https://imagej.net/ImageJ1)** project which demonst
 The project uses MAVEN for dependency management and is preconfigured for Eclipse.
 This repository provides Java source code supplementing the **[Digital Image Processing](https://imagingbook.com)** books by **W. Burger & M. J. Burge**.
 
-This project contains the **Java sources** for two ImageJ plugins:
-* a plugin for testing the `imagingbook` installation and
-* a plugin that implements the Canny edge detector on color and grayscale images.
+This project contains the **Java sources** for two ImageJ demo plugins:
+1. a plugin for testing the `imagingbook` installation,
+2. a plugin that implements the Canny edge detector on color and grayscale images.
 
 In addition, the project imports the plugins package `imagingbook_plugins_tools`
 as a Maven dependency (specified in `pom.xml`). 
@@ -42,7 +42,7 @@ The associated JAR file is placed inside the `ImageJ/plugins` directory.
 
 * If additional libraries are required that are *not* available via Maven, place
   the associated JAR files in `ImageJ/jars`. This directory is in ImageJ's library path
-  and is not cleared by a Maven rebuild. 
+  but is not cleared by a Maven rebuild. 
 
 
 **Additional plugins:** https://github.com/imagingbook/imagingbook-plugins-all
