@@ -40,7 +40,7 @@
 		<dependency>
 			<!-- see https://github.com/imagingbook/imagingbook-maven-repository/tree/master/com/imagingbook/imagingbook-common -->
 			<groupId>com.imagingbook</groupId>
-			<artifactId>imagingbook_plugins_tools</artifactId>
+			<artifactId>plugins_tools</artifactId>
 			<version>4.0-SNAPSHOT</version>
 		</dependency>
 

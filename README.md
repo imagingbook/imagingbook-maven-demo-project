@@ -8,9 +8,9 @@ This project contains the **Java sources** for two ImageJ demo plugins:
 1. a plugin for testing the `imagingbook` installation,
 2. a plugin that implements the Canny edge detector on color and grayscale images.
 
-In addition, the project imports the plugins package `imagingbook_plugins_tools`
+In addition, the project imports the plugins package `plugins_tools`
 as a Maven dependency (specified in `pom.xml`). 
-The associated JAR file is placed inside the `ImageJ/plugins` directory.
+The associated JAR file is placed in the `ImageJ/plugins` directory.
 
 
 
@@ -18,13 +18,13 @@ The associated JAR file is placed inside the `ImageJ/plugins` directory.
 
 * Clone this repository. The resulting project should be complete and runnable as-is (no Maven build necessary):
   * Start **ImageJ** by double-clicking `ImageJ/ImageJ.exe` (Win) or launching `ij.jar` (Mac).
-  * Run `Plugins` &#10140; `imagingbook_test` &#10140; `Check_Installation`.
+  * Run `Plugins` &#10140; `Demo_Plugins` &#10140; `Check_Installation`.
   * Open a grayscale or color image.
   * Run `Plugins` &#10140; `imagingbook_test` &#10140; `Color_Edges_Canny`. 
 * To change or add new functionality edit the Java files (ImageJ plugins) in `src/main/java`. 
   Under Eclipse the associated `.class` files are automatically updated and placed in the `ImageJ/plugins` directory.
 * **Note** that the test plugins are inside the Java package `imagingbook_test`, which makes them automatically appear inside
-  the sub-menu `imagingbook_test` in ImageJ's `Plugins` menu.
+  the sub-menu `Demo_Plugins` in ImageJ's `Plugins` menu.
   If you create your own plugin files and packages make sure that the package *and* plugin names
   **contain at least one underscore**! 
   You may also define ImageJ plugins in Java's `default` package (i.e., one level higher), which then show at the menu's top-level.
