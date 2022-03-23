@@ -22,11 +22,12 @@ import imagingbook.pub.color.edge.EdgeTrace;
 
 /**
  * This plugin implements the Canny edge detector for all types of images.
+ * This is a renamed duplicate of {@link Color_Edges.Color_Edges_Canny}.
  * @author W. Burger
  * @version 2021/11/26
  * @version 2022/03/22 revised dialog
  */
-public class Color_Edges_Canny implements PlugInFilter {
+public class Canny_Edged implements PlugInFilter {
 	
 	static boolean showEdgeMagnitude = true;
 	static boolean showEdgeOrientation = true;

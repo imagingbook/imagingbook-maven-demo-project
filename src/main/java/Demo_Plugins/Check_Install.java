@@ -15,11 +15,12 @@ import imagingbook.lib.util.FileUtils;
 
 
 /**
- * A simple ImageJ plugin for testing the 'imagingbook' installation.
+ * A simple ImageJ plugin for validating the 'imagingbook' installation.
+ * This is a renamed duplicate of {@link Tools.Check_Installation}.
  * @author W. Burger
  * @version 2016/03/23
  */
-public class Check_Installation implements PlugIn {
+public class Check_Install implements PlugIn {
 
 	public void run(String arg0) {
 		IJ.log("Executing plugin ...... " + this.getClass().getName());
@@ -36,7 +37,7 @@ public class Check_Installation implements PlugIn {
 			IJ.log("imagingbook installation seems to be running OK.");
 		} catch (Exception e) {
 			IJ.log("imagingbook libary not found:");
-			IJ.log("make sure 'imagingbook-common.jar' is placed in the ImageJ/jars/ folder!");
+			IJ.log("make sure 'imagingbook-common.jar' is placed in the ImageJ/plugins or ImageJ/jars folder!");
 		}
 	}
 
