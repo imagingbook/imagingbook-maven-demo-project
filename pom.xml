@@ -203,9 +203,37 @@
  		-->
 	</dependencies>
 	
-	<build>
-   		<!-- needed for updating Eclipse settings (see also ij-plugins-build profile) -->
+	<build>	
+   		<!-- needed for updating Eclipse settings (see also ij-plugins-build profile): -->
     	<outputDirectory>ImageJ/plugins</outputDirectory>
+    	
+    	<!-- Copy dependency plugin JARs to /ImageJ/plugins/: -->
+    	<plugins>
+    		<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-dependency-plugin</artifactId>
+				<executions>
+					<execution>
+						<!-- copy plugin dependency JARs into ImageJ/plugins/ -->
+						<id>copy-plugin-jars</id>
+						<phase>package</phase>
+						<goals>
+							<goal>copy-dependencies</goal>
+						</goals>
+						<configuration>
+							<includeGroupIds>com.imagingbook</includeGroupIds>
+							<!-- <includeArtifactIds>imagingbook_plugins_all</includeArtifactIds> -->
+							<!-- copy all com.imagingbook plugin JARs except the common library -->
+							<excludeArtifactIds>imagingbook-common</excludeArtifactIds>
+							<outputDirectory>${project.basedir}/ImageJ/plugins</outputDirectory>
+							<overWriteIfNewer>true</overWriteIfNewer>
+							<overWriteReleases>false</overWriteReleases>
+							<overWriteSnapshots>true</overWriteSnapshots>
+						</configuration>
+					</execution>
+				</executions>
+    		</plugin>
+    	</plugins>
 	</build>
 
 </project>
