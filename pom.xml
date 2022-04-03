@@ -12,7 +12,7 @@
 	<parent>
 		<groupId>com.imagingbook</groupId>
 		<artifactId>imagingbook-plugins-pom</artifactId>
-		<version>4.0-SNAPSHOT</version>
+		<version>4.0A-SNAPSHOT</version>
 		<relativePath />
 	</parent>
 	
@@ -23,12 +23,12 @@
     	<maven.javadoc.skip>true</maven.javadoc.skip>
 	</properties>
 
-	<repositories>
+	<!-- <repositories>
 		<repository>
 			<id>imagingbook-maven-repository</id>
 			<url>https://raw.github.com/imagingbook/imagingbook-maven-repository/master</url>
 		</repository>
-	</repositories>
+	</repositories> -->
 	
 	<dependencies>
 		<dependency>
@@ -41,164 +41,164 @@
 		<dependency>
 			<groupId>com.imagingbook</groupId>
 			<artifactId>imagingbook_plugins_all</artifactId>
-			<version>4.0-SNAPSHOT</version>
+			<version>4.0A-SNAPSHOT</version>
 		</dependency> -->
 
 		<!-- plugins 
 		<dependency>	
 			<groupId>com.imagingbook</groupId>
 			<artifactId>plugins_binary_regions</artifactId>
-			<version>4.0-SNAPSHOT</version>
+			<version>4.0A-SNAPSHOT</version>
 		</dependency>
 		
 		<dependency>	
 			<groupId>com.imagingbook</groupId>
 			<artifactId>plugins_color_edges</artifactId>
-			<version>4.0-SNAPSHOT</version>
+			<version>4.0A-SNAPSHOT</version>
 		</dependency>
 		
 		<dependency>	
 			<groupId>com.imagingbook</groupId>
 			<artifactId>plugins_color_filters</artifactId>
-			<version>4.0-SNAPSHOT</version>
+			<version>4.0A-SNAPSHOT</version>
 		</dependency>
 		
 		<dependency>	
 			<groupId>com.imagingbook</groupId>
 			<artifactId>plugins_color_images</artifactId>
-			<version>4.0-SNAPSHOT</version>
+			<version>4.0A-SNAPSHOT</version>
 		</dependency>
 		
 		<dependency>	
 			<groupId>com.imagingbook</groupId>
 			<artifactId>plugins_color_quantization</artifactId>
-			<version>4.0-SNAPSHOT</version>
+			<version>4.0A-SNAPSHOT</version>
 		</dependency>
 		
 		<dependency>	
 			<groupId>com.imagingbook</groupId>
 			<artifactId>plugins_colorimetric</artifactId>
-			<version>4.0-SNAPSHOT</version>
+			<version>4.0A-SNAPSHOT</version>
 		</dependency>
 		
 		<dependency>	
 			<groupId>com.imagingbook</groupId>
 			<artifactId>plugins_corner_detection</artifactId>
-			<version>4.0-SNAPSHOT</version>
+			<version>4.0A-SNAPSHOT</version>
 		</dependency>
 		
 		<dependency>	
 			<groupId>com.imagingbook</groupId>
 			<artifactId>plugins_edge_preserving_smoothing</artifactId>
-			<version>4.0-SNAPSHOT</version>
+			<version>4.0A-SNAPSHOT</version>
 		</dependency>
 		
 		<dependency>	
 			<groupId>com.imagingbook</groupId>
 			<artifactId>plugins_edges_contours</artifactId>
-			<version>4.0-SNAPSHOT</version>
+			<version>4.0A-SNAPSHOT</version>
 		</dependency>
 		
 		<dependency>	
 			<groupId>com.imagingbook</groupId>
 			<artifactId>plugins_filter_demos</artifactId>
-			<version>4.0-SNAPSHOT</version>
+			<version>4.0A-SNAPSHOT</version>
 		</dependency>
 		
 		<dependency>	
 			<groupId>com.imagingbook</groupId>
 			<artifactId>plugins_filters</artifactId>
-			<version>4.0-SNAPSHOT</version>
+			<version>4.0A-SNAPSHOT</version>
 		</dependency>
 		
 		<dependency>	
 			<groupId>com.imagingbook</groupId>
 			<artifactId>plugins_fourier_shape_descriptors</artifactId>
-			<version>4.0-SNAPSHOT</version>
+			<version>4.0A-SNAPSHOT</version>
 		</dependency>
 		
 		<dependency>	
 			<groupId>com.imagingbook</groupId>
 			<artifactId>plugins_geometric_operations</artifactId>
-			<version>4.0-SNAPSHOT</version>
+			<version>4.0A-SNAPSHOT</version>
 		</dependency>
 		
 		<dependency>	
 			<groupId>com.imagingbook</groupId>
 			<artifactId>plugins_histograms_statistics</artifactId>
-			<version>4.0-SNAPSHOT</version>
+			<version>4.0A-SNAPSHOT</version>
 		</dependency>
 		
 		<dependency>	
 			<groupId>com.imagingbook</groupId>
 			<artifactId>plugins_hough_transform</artifactId>
-			<version>4.0-SNAPSHOT</version>
+			<version>4.0A-SNAPSHOT</version>
 		</dependency>
 		
 		<dependency>	
 			<groupId>com.imagingbook</groupId>
 			<artifactId>plugins_image_matching</artifactId>
-			<version>4.0-SNAPSHOT</version>
+			<version>4.0A-SNAPSHOT</version>
 		</dependency>
 		
 		<dependency>	
 			<groupId>com.imagingbook</groupId>
 			<artifactId>plugins_imagej_examples</artifactId>
-			<version>4.0-SNAPSHOT</version>
+			<version>4.0A-SNAPSHOT</version>
 		</dependency>
 		
 		<dependency>	
 			<groupId>com.imagingbook</groupId>
 			<artifactId>plugins_lucas_kanade</artifactId>
-			<version>4.0-SNAPSHOT</version>
+			<version>4.0A-SNAPSHOT</version>
 		</dependency>
 		
 		<dependency>	
 			<groupId>com.imagingbook</groupId>
 			<artifactId>plugins_morphological_filters</artifactId>
-			<version>4.0-SNAPSHOT</version>
+			<version>4.0A-SNAPSHOT</version>
 		</dependency>
 		
 		<dependency>	
 			<groupId>com.imagingbook</groupId>
 			<artifactId>plugins_pixel_interpolation</artifactId>
-			<version>4.0-SNAPSHOT</version>
+			<version>4.0A-SNAPSHOT</version>
 		</dependency>
 		
 		<dependency>	
 			<groupId>com.imagingbook</groupId>
 			<artifactId>plugins_point_operations</artifactId>
-			<version>4.0-SNAPSHOT</version>
+			<version>4.0A-SNAPSHOT</version>
 		</dependency>
 		
 		<dependency>	
 			<groupId>com.imagingbook</groupId>
 			<artifactId>plugins_sift</artifactId>
-			<version>4.0-SNAPSHOT</version>
+			<version>4.0A-SNAPSHOT</version>
 		</dependency>
 		
 		<dependency>	
 			<groupId>com.imagingbook</groupId>
 			<artifactId>plugins_spectral_techniques</artifactId>
-			<version>4.0-SNAPSHOT</version>
+			<version>4.0A-SNAPSHOT</version>
 		</dependency>
 		
 		<dependency>	
 			<groupId>com.imagingbook</groupId>
 			<artifactId>plugins_synthetic_noise</artifactId>
-			<version>4.0-SNAPSHOT</version>
+			<version>4.0A-SNAPSHOT</version>
 		</dependency>
 		
 		<dependency>	
 			<groupId>com.imagingbook</groupId>
 			<artifactId>plugins_thresholding</artifactId>
-			<version>4.0-SNAPSHOT</version>
+			<version>4.0A-SNAPSHOT</version>
 		</dependency>
 		
 		<dependency>	
 			<groupId>com.imagingbook</groupId>
 			<artifactId>plugins_tools</artifactId>
-			<version>4.0-SNAPSHOT</version>
+			<version>4.0A-SNAPSHOT</version>
 		</dependency>
 
  		-->
