@@ -34,7 +34,8 @@
 		<dependency>
 			<!-- see https://github.com/imagingbook/imagingbook-maven-repository/tree/master/com/imagingbook/imagingbook-common -->
 			<groupId>com.imagingbook</groupId>
-			<artifactId>imagingbook-common</artifactId>   
+			<artifactId>imagingbook-common</artifactId>
+			<version>4.0A-SNAPSHOT</version> 
 		</dependency>
 		
 		<!-- 
