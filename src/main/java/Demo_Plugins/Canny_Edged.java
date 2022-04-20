@@ -16,9 +16,9 @@ import ij.ImagePlus;
 import ij.gui.GenericDialog;
 import ij.plugin.filter.PlugInFilter;
 import ij.process.ImageProcessor;
-import imagingbook.pub.color.edge.CannyEdgeDetector;
-import imagingbook.pub.color.edge.CannyEdgeDetector.Parameters;
-import imagingbook.pub.color.edge.EdgeTrace;
+import imagingbook.common.color.edge.CannyEdgeDetector;
+import imagingbook.common.color.edge.EdgeTrace;
+import imagingbook.common.color.edge.CannyEdgeDetector.Parameters;
 
 /**
  * This plugin implements the Canny edge detector for all types of images.

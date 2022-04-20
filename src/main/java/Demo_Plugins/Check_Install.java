@@ -11,7 +11,7 @@ package Demo_Plugins;
 import ij.IJ;
 import ij.plugin.PlugIn;
 import imagingbook.Info;
-import imagingbook.lib.util.FileUtils;
+import imagingbook.common.util.FileUtils;
 
 
 /**
