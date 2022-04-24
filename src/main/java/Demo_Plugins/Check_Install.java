@@ -10,8 +10,8 @@ package Demo_Plugins;
 
 import ij.IJ;
 import ij.plugin.PlugIn;
-import imagingbook.Info;
-import imagingbook.common.util.FileUtils;
+import imagingbook.core.Info;
+import imagingbook.core.FileUtils;
 
 
 /**
