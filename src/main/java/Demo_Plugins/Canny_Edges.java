@@ -27,7 +27,7 @@ import imagingbook.common.color.edge.CannyEdgeDetector.Parameters;
  * @version 2021/11/26
  * @version 2022/03/22 revised dialog
  */
-public class Canny_Edged implements PlugInFilter {
+public class Canny_Edges implements PlugInFilter {
 	
 	static boolean showEdgeMagnitude = true;
 	static boolean showEdgeOrientation = true;

@@ -12,7 +12,7 @@
 	<parent>
 		<groupId>com.imagingbook</groupId>
 		<artifactId>imagingbook-plugins-pom</artifactId>
-		<version>4.0.1-SNAPSHOT</version>
+		<version>4.0.0</version>
 		<relativePath />
 	</parent>
 	
@@ -35,7 +35,7 @@
 			<!-- see https://github.com/imagingbook/imagingbook-maven-repository/tree/master/com/imagingbook/imagingbook-common -->
 			<groupId>com.imagingbook</groupId>
 			<artifactId>imagingbook-common</artifactId>
-			<version>4.0A-SNAPSHOT</version> 
+			<version>4.0.0</version>
 		</dependency>
 		
 		<!-- 
