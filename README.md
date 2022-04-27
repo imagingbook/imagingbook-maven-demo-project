@@ -14,7 +14,7 @@ The associated JAR file is placed in the `ImageJ/plugins` directory.
 
 
 
-**How to use (out of the box)**
+## How to use (out of the box)
 
 * Clone this repository. The resulting project should be complete and runnable as-is (no Maven build necessary):
   * Start **ImageJ** by double-clicking `ImageJ/ImageJ.exe` (Win) or launching `ij.jar` (Mac).
@@ -32,22 +32,22 @@ The associated JAR file is placed in the `ImageJ/plugins` directory.
   Other Java source files (e.g., for private library classes used by plugins) may be nested at deeper levels.
   
 
-**How to use with Maven** 
+## How to use with Maven
 
 * For a complete rebuild (with Maven) use `mvn clean install`. Note that this will clear the `ImageJ/plugins`
   directory, since this is the configured output directory.
 * If additional libraries are needed, add them to the dependencies in `pom.xml` and rebuild the project.
 
-**Using non-Maven libraries**
+## Using non-Maven libraries
 
 * If additional libraries are required that are *not* available via Maven, place
   the associated JAR files in `ImageJ/jars`. This directory is in ImageJ's library path
   but is not cleared by a Maven rebuild. 
 
 
-**Additional plugins:** https://github.com/imagingbook/imagingbook-plugins-all
+**See also:** https://github.com/imagingbook/imagingbook-plugins-all
 
-**Main repository:** https://github.com/imagingbook/imagingbook-public
+**Main repository:** [**imagingbook-public**](https://github.com/imagingbook/imagingbook-public)
 
 
 
