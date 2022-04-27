@@ -23,13 +23,13 @@ The associated JAR file is placed in the `ImageJ/plugins` directory.
   * Run `Plugins` &#10140; `imagingbook_test` &#10140; `Canny_Edges`. 
 * To change or add new functionality edit the Java files (ImageJ plugins) in `src/main/java`. 
   Under Eclipse the associated `.class` files are automatically updated and placed in the `ImageJ/plugins` directory.
-* **Note** that the test plugins are inside the Java package `imagingbook_test`, which makes them automatically appear inside
-  the sub-menu `Demo_Plugins` in ImageJ's `Plugins` menu.
-  If you create your own plugin files and packages make sure that the package *and* plugin names
-  **contain at least one underscore**! 
+* **Note** that the test plugins are inside the Java package `Demo_Plugins`, which makes them automatically appear inside
+  the sub-menu `Demo Plugins` (underscores are replaced by blanks) in ImageJ's `Plugins` menu.
+  If you create your own plugin files make sure that each plugin name
+  **contains at least one underscore** (package names without underscores are fine)!
   You may also define ImageJ plugins in Java's `default` package (i.e., one level higher), which then show at the menu's top-level.
   Also note that ImageJ ignores plugins that are nested deeper than one package level!
-  Other Java source files (e.g., for private library classes used by plugins) may be nested at deeper levels.
+  However, other Java source files (e.g., for private library classes used by plugins) may be nested at deeper levels.
   
 
 ## How to use with Maven
