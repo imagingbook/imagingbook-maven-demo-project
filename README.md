@@ -18,9 +18,9 @@ The associated JAR file is placed in the `ImageJ/plugins` directory.
 
 * Clone this repository. The resulting project should be complete and runnable as-is (no Maven build necessary):
   * Start **ImageJ** by double-clicking `ImageJ/ImageJ.exe` (Win) or launching `ij.jar` (Mac).
-  * Run `Plugins` &#10140; `Demo_Plugins` &#10140; `Check_Installation`.
+  * Run `Plugins` &#10140; `Demo_Plugins` &#10140; `Check_Install`.
   * Open a grayscale or color image.
-  * Run `Plugins` &#10140; `imagingbook_test` &#10140; `Color_Edges_Canny`. 
+  * Run `Plugins` &#10140; `imagingbook_test` &#10140; `Canny_Edges`. 
 * To change or add new functionality edit the Java files (ImageJ plugins) in `src/main/java`. 
   Under Eclipse the associated `.class` files are automatically updated and placed in the `ImageJ/plugins` directory.
 * **Note** that the test plugins are inside the Java package `imagingbook_test`, which makes them automatically appear inside
