@@ -12,9 +12,23 @@
 	<parent>
 		<groupId>com.imagingbook</groupId>
 		<artifactId>imagingbook-plugins-pom</artifactId>
-		<version>4.0.0</version>
+		<version>4.0.1-SNAPSHOT</version>
 		<relativePath />
 	</parent>
+	
+	<description>
+		This is a simple Maven-based ImageJ project which uses the 'imagingbook-common'
+		library as a dependency.
+		This code is part of the imagingbook software suite accompanying the
+		image processing textbooks by W. Burger and M.J. Burge (Springer 2006-2022).
+	</description>
+	<url>http://www.imagingbook.com</url>
+	
+	<developers>
+		<developer>
+			<name>Wilhelm Burger</name>
+		</developer>
+	</developers>
 	
 	<properties>
 		<!-- do not deploy this project -->
@@ -23,47 +37,18 @@
     	<maven.javadoc.skip>true</maven.javadoc.skip>
 	</properties>
 
-	
 	<dependencies>
 		<dependency>
 			<!-- see https://github.com/imagingbook/imagingbook-maven-repository/tree/master/com/imagingbook/imagingbook-common -->
 			<groupId>com.imagingbook</groupId>
 			<artifactId>imagingbook-common</artifactId>
-			<version>4.0.0</version>
+			<version>4.0.1-SNAPSHOT</version>
 		</dependency>
 	</dependencies>
 	
 	<build>	
    		<!-- needed for updating Eclipse settings (see also ij-plugins-build profile): -->
     	<outputDirectory>ImageJ/plugins</outputDirectory>
-    	
-    	<!-- Copy dependency plugin JARs to /ImageJ/plugins/: -->
-    	<plugins>
-    		<plugin>
-				<groupId>org.apache.maven.plugins</groupId>
-				<artifactId>maven-dependency-plugin</artifactId>
-				<executions>
-					<execution>
-						<!-- copy plugin dependency JARs into ImageJ/plugins/ -->
-						<id>copy-plugin-jars</id>
-						<phase>package</phase>
-						<goals>
-							<goal>copy-dependencies</goal>
-						</goals>
-						<configuration>
-							<includeGroupIds>com.imagingbook</includeGroupIds>
-							<!-- <includeArtifactIds>imagingbook_plugins_all</includeArtifactIds> -->
-							<!-- copy all com.imagingbook plugin JARs except the common library -->
-							<excludeArtifactIds>imagingbook-common</excludeArtifactIds>
-							<outputDirectory>${project.basedir}/ImageJ/plugins</outputDirectory>
-							<overWriteIfNewer>true</overWriteIfNewer>
-							<overWriteReleases>false</overWriteReleases>
-							<overWriteSnapshots>true</overWriteSnapshots>
-						</configuration>
-					</execution>
-				</executions>
-    		</plugin>
-    	</plugins>
 	</build>
 
 </project>

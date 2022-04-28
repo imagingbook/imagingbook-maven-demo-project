@@ -10,15 +10,13 @@ package Demo_Plugins;
 
 import ij.IJ;
 import ij.plugin.PlugIn;
-import imagingbook.core.Info;
 import imagingbook.core.FileUtils;
-
+import imagingbook.core.Info;
 
 /**
  * A simple ImageJ plugin for validating the 'imagingbook' installation.
- * This is a renamed duplicate of {@link Tools.Check_Installation}.
+ * 
  * @author W. Burger
- * @version 2016/03/23
  */
 public class Check_Install implements PlugIn {
 

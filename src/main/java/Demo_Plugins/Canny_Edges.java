@@ -44,7 +44,7 @@ public class Canny_Edges implements PlugInFilter {
 	public void run(ImageProcessor ip) {
 		
 		Parameters params = new Parameters();
-		if (!setParameters(params)) return;
+		if (!runDialog(params)) return;
 		
 		CannyEdgeDetector detector = new CannyEdgeDetector(ip, params);
 		
@@ -74,8 +74,8 @@ public class Canny_Edges implements PlugInFilter {
 		}
 	}
 
-	boolean setParameters(Parameters params) {
-		GenericDialog gd = new GenericDialog("Canny Detector");
+	private boolean runDialog(Parameters params) {
+		GenericDialog gd = new GenericDialog(this.getClass().getSimpleName());
 		// Canny parameters:
 		params.addToDialog(gd);
 		// plugin parameters:
