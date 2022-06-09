@@ -38,12 +38,25 @@
 	</properties>
 
 	<dependencies>
+	
 		<dependency>
-			<!-- see https://github.com/imagingbook/imagingbook-maven-repository/tree/master/com/imagingbook/imagingbook-common -->
 			<groupId>com.imagingbook</groupId>
 			<artifactId>imagingbook-common</artifactId>
 			<version>4.0.1-SNAPSHOT</version>
 		</dependency>
+		
+		<dependency>	<!-- optional -->
+			<groupId>com.imagingbook</groupId>
+			<artifactId>imagingbook-spectral</artifactId>
+			<version>4.0.1-SNAPSHOT</version>
+		</dependency>
+		
+		<dependency>	<!-- optional -->
+			<groupId>com.imagingbook</groupId>
+			<artifactId>imagingbook-pdf</artifactId>
+			<version>4.0.1-SNAPSHOT</version>
+		</dependency>
+		
 	</dependencies>
 	
 	<build>	
