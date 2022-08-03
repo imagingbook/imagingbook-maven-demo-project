@@ -1,6 +1,6 @@
 # imagingbook-maven-demo-project
 
-This is a minimal **[ImageJ](https://imagej.net/ImageJ1)** project which demonstrates how to use the **[imagingbook-common](https://github.com/imagingbook/imagingbook-common)** library and associated ImageJ plugins.
+This is a minimal **[ImageJ](https://imagej.net/ImageJ1)** project which demonstrates how to use the **[imagingbook-common](https://github.com/imagingbook/imagingbook-public)** library and associated ImageJ plugins.
 The project uses MAVEN for dependency management and is preconfigured for Eclipse.
 This repository provides Java source code supplementing the **[Digital Image Processing](https://imagingbook.com)** books by **W. Burger & M. J. Burge**.
 
