@@ -64,7 +64,7 @@ public class Canny_Edges implements PlugInFilter {
 		}
 		
 		if(listEdgeTraces) {
-			List<EdgeTrace> edgeTraces = detector.getTraces();
+			List<EdgeTrace> edgeTraces = detector.getEdgeTraces();
 			IJ.log("number of edge traces: " + edgeTraces.size());
 			int i = 0;
 			for (EdgeTrace et : edgeTraces) {
