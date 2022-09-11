@@ -16,9 +16,8 @@ import ij.ImagePlus;
 import ij.gui.GenericDialog;
 import ij.plugin.filter.PlugInFilter;
 import ij.process.ImageProcessor;
-import imagingbook.common.color.edge.CannyEdgeDetector;
-import imagingbook.common.color.edge.EdgeTrace;
-import imagingbook.common.color.edge.CannyEdgeDetector.Parameters;
+import imagingbook.common.edges.CannyEdgeDetector;
+import imagingbook.common.edges.EdgeTrace;
 
 /**
  * This plugin implements the Canny edge detector for all types of images.
@@ -43,7 +42,7 @@ public class Canny_Edges implements PlugInFilter {
 
 	public void run(ImageProcessor ip) {
 		
-		Parameters params = new Parameters();
+		CannyEdgeDetector.Parameters params = new CannyEdgeDetector.Parameters();
 		if (!runDialog(params)) return;
 		
 		CannyEdgeDetector detector = new CannyEdgeDetector(ip, params);
@@ -74,7 +73,7 @@ public class Canny_Edges implements PlugInFilter {
 		}
 	}
 
-	private boolean runDialog(Parameters params) {
+	private boolean runDialog(CannyEdgeDetector.Parameters params) {
 		GenericDialog gd = new GenericDialog(this.getClass().getSimpleName());
 		// Canny parameters:
 		params.addToDialog(gd);
