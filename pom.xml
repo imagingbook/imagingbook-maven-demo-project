@@ -35,26 +35,27 @@
 		<imagingbook.skipdeploy>true</imagingbook.skipdeploy>
 		<!-- do not generate JavaDoc for this project -->
     	<maven.javadoc.skip>true</maven.javadoc.skip>
+		<imagingbook.version>6.0.1-SNAPSHOT</imagingbook.version>
 	</properties>
 
 	<dependencies>
 	
-		<dependency>
+		<!--<dependency>
 			<groupId>com.imagingbook</groupId>
 			<artifactId>imagingbook-common</artifactId>
-			<version>6.0.1-SNAPSHOT</version>
-		</dependency>
+			<version>${imagingbook.version}</version>
+		</dependency>-->
 		
 		<dependency>	<!-- optional -->
 			<groupId>com.imagingbook</groupId>
 			<artifactId>imagingbook-spectral</artifactId>
-			<version>6.0.1-SNAPSHOT</version>
+			<version>${imagingbook.version}</version>
 		</dependency>
 		
 		<dependency>	<!-- optional -->
 			<groupId>com.imagingbook</groupId>
 			<artifactId>imagingbook-pdf</artifactId>
-			<version>6.0.1-SNAPSHOT</version>
+			<version>${imagingbook.version}</version>
 		</dependency>
 		
 	</dependencies>
