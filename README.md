@@ -45,7 +45,7 @@ The associated JAR file is placed in the `ImageJ/plugins` directory.
 
 * If additional libraries are required that are *not* available via Maven, place
   the associated JAR files in `ImageJ/jars`. This directory is in ImageJ's library path
-  but is not cleared by a Maven rebuild. 
+  (but cleared by a Maven rebuild).
 
 
 **See also:** [**imagingbook-plugins-all**](https://github.com/imagingbook/imagingbook-plugins-all) 
