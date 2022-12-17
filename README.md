@@ -19,7 +19,8 @@ The associated JAR file is placed in the `ImageJ/plugins` directory.
 
 ## How to use (out of the box)
 
-* Clone this repository. The resulting project should be complete and runnable as-is (no Maven build necessary):
+* Download the [**latest release of this repository**](https://github.com/imagingbook/imagingbook-maven-demo-project/releases/latest).
+  The resulting project should be complete and runnable as-is (no initial Maven build necessary):
   * Start **ImageJ** by double-clicking `ImageJ/ImageJ.exe` (Win) or launching `ij.jar` (Mac).
   * Run `Plugins` &#10140; `Demo_Plugins` &#10140; `Check_Install`.
   * Open a grayscale or color image.
