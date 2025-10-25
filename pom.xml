@@ -6,14 +6,14 @@
 	
 	<groupId>net.myorg</groupId>
 	<artifactId>imagingbook-maven-demo-project</artifactId>
-	<version>0.1-SNAPSHOT</version>
+	<version>7.3.0</version>
 	<packaging>jar</packaging>
 	
 	<parent>
 		<groupId>com.imagingbook</groupId>
 		<artifactId>imagingbook-parent-pom</artifactId>
 		<!-- see https://central.sonatype.dev/namespace/com.imagingbook for latest versions! -->
-		<version>7.2.0</version>
+		<version>7.3.0</version>
 		<relativePath />
 	</parent>
 	
