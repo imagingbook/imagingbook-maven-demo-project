@@ -2,32 +2,33 @@
 
 This repository provides Java source code supplementing the **[Digital Image Processing](https://imagingbook.com)** 
 books by **W. Burger & M. J. Burge**.
-This is a minimal **[ImageJ](https://imagej.net/ImageJ1)** project which demonstrates how to use the 
+It contains a minimal, stand-alone **[ImageJ](https://imagej.net/ImageJ1)** project which demonstrates the use of the 
 **[imagingbook-common](https://github.com/imagingbook/imagingbook-public)** library and associated ImageJ plugins. 
-The project uses MAVEN for dependency management.
+The project uses [Maven](https://maven.apache.org/) for Java dependency management.
 
 
 This project contains the **Java sources** for two ImageJ demo plugins:
 1. a plugin for testing the `imagingbook` installation,
 2. a plugin that implements the Canny edge detector on color and grayscale images.
 
-In addition, the project imports the plugins package `plugins_tools`
-as a Maven dependency (specified in `pom.xml`). 
-The associated JAR file is placed in the `ImageJ/plugins` directory.
-
-
 
 ## How to use (out of the box)
 
 * Download the [**latest release of this repository**](https://github.com/imagingbook/imagingbook-maven-demo-project/releases/latest).
   The resulting project should be complete and runnable as-is (no initial Maven build necessary):
-  * Start **ImageJ** by double-clicking `ImageJ/ImageJ.exe` (Win) or launching `ij.jar` (Mac).
-  * Run `Plugins` &#10140; `Demo_Plugins` &#10140; `Check_Install`.
-  * Open a grayscale or color image.
-  * Run `Plugins` &#10140; `imagingbook_test` &#10140; `Canny_Edges`. 
-* To change or add new functionality edit the Java files (ImageJ plugins) in `src/main/java`. 
+* Start **ImageJ** by double-clicking `ImageJ/ImageJ.exe` (Win) or launching `ij.jar` (Mac).
+
+At the first start-up, ImageJ will prompt you for the local Java installation, which
+is then stored in the `ImageJ.cfg` file. Then (in ImageJ)
+
+* Select `Plugins` &#10140; `Demo_Plugins` &#10140; `Check Install`.
+* Use `File` &#10140; `Open Samples` &#10140; ... to open a grayscale or color image.
+* Run `Plugins` &#10140; `Demo_plugins` &#10140; `Canny Edges`.
+
+To change or add new functionality edit the Java files (ImageJ plugins) in `src/main/java`. 
   Under Eclipse the associated `.class` files are automatically updated and placed in the `ImageJ/plugins` directory.
-* **Note** that the test plugins are inside the Java package `Demo_Plugins`, which makes them automatically appear inside
+
+**Note** that the test plugins are inside the Java package `Demo_Plugins`, which makes them automatically appear inside
   the sub-menu `Demo Plugins` (underscores are replaced by blanks) in ImageJ's `Plugins` menu.
   If you create your own plugin files make sure that each plugin name
   **contains at least one underscore** (package names without underscores are fine)!
@@ -50,7 +51,7 @@ The associated JAR file is placed in the `ImageJ/plugins` directory.
 
 
 **See also:** [**imagingbook-plugins-all**](https://github.com/imagingbook/imagingbook-plugins-all) 
-(includes the complete set of `imagingbook` plugins)
+(for the complete set of `imagingbook` plugins)
 
 **Main repository:** [**imagingbook-public**](https://github.com/imagingbook/imagingbook-public)
 
